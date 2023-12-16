@@ -1,77 +1,53 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 01.12.2023 19:21:24
--- Design Name: 
--- Module Name: top_tb - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
+entity top_tb is
+end entity;
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
-ENTITY top_tb IS
-END top_tb;
-
-architecture behavior of top_tb is 
-    -- Declaramos las señales que se corresponden con las entradas y salidas de la entidad top
-    signal rst_tb: std_logic := '0';
-    signal clk_tb: std_logic := '0';
-    signal boton_tb: std_logic := '0';
-    signal sensor_tb: std_logic := '0';
-    signal rgb_peaton_tb: std_logic_vector(2 downto 0);
-    signal rgb_coche_tb: std_logic_vector(2 downto 0);
-
-    -- Instanciamos la entidad top
+architecture behavioural of top_tb is
+    -- Import the entity to be tested
     component top is
-        PORT (
-            RESET_TOP: IN std_logic;
-            CLK_TOP: IN std_logic;
-            BOTON: IN std_logic;
-            SNS: IN std_logic;
-            RGB_PEATON: OUT std_logic_vector(2 downto 0);
-            RGB_COCHE: OUT std_logic_vector(2 downto 0)
-        );
-    end component;
-    
-constant k : time := 10 ns;
-
-begin
-    -- Mapeamos las señales de prueba a la entidad top
-    uut: top port map (
-        RESET_TOP => rst_tb,
-        CLK_TOP => clk_tb,
-        BOTON => boton_tb,
-        SNS => sensor_tb,
-        RGB_PEATON => rgb_peaton_tb,
-        RGB_COCHE => rgb_coche_tb
+    port (
+    RESET_TOP : in std_logic;
+    CLK_TOP : in std_logic;
+    BOTON_TOP : in std_logic;
+    SENSOR_TOP:in std_logic;
+    SEM_TOP : out std_logic_vector(5 downto 0)--(VC,AC,RC,VP,PP,RP)
     );
-    
-    clk_tb <= not clk_tb after 0.5 * k;
-    rst_tb <= '0', '1' after k;
-    boton_tb <= '0', '1' after 4*k;
+    end component;
 
-    -- Aquí es donde definirías tus estímulos de prueba
-    stimulus: process
+    -- Declare signals for the testbench
+    signal reset_sig : std_logic := '0';
+    signal clk_sig : std_logic := '0';
+    signal pushbutton_sig : std_logic := '0';
+    signal sensor_sig : std_logic := '0';
+    signal sem_sig : std_logic_vector(5 downto 0);
+    
+    constant k : time := 10 ns;
+    
+begin
+    -- Instantiate the entity to be tested
+    DUT : top port map (
+            RESET_TOP => reset_sig,
+            CLK_TOP => clk_sig,
+            BOTON_TOP=> pushbutton_sig,
+            SENSOR_TOP => sensor_sig,
+            SEM_TOP => sem_sig
+        );
+        
+    clk_sig <= not clk_sig after 0.5*k;
+    reset_sig <= '0', '1' after 1.25*k;
+
+    -- Stimulus process
+    stimulus : process
     begin
-        --wait for k;
-        --boton_tb <= '1';
-        --wait for k/2;
-        --boton_tb <= '0';
-        wait for k*100;
+        pushbutton_sig <= '0';
+        wait for k;
+        pushbutton_sig <= '1';
+        wait for 100*k;
+
         assert false report "Simulation complete" severity failure;
     end process;
 
-end behavior;
+end architecture;
