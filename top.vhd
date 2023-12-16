@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 26.10.2023 16:00:20
+-- Create Date: 15.12.2023 09:55:32
 -- Design Name: 
 -- Module Name: top - Behavioral
 -- Project Name: 
@@ -19,6 +19,9 @@
 ----------------------------------------------------------------------------------
 
 
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -28,67 +31,57 @@
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
 ENTITY top IS
  PORT (
- RESET_TOP:IN std_logic;
- CLK_TOP: IN std_logic;
- BOTON:IN std_logic;
- SNS : IN std_logic;
- 
- RGB_PEATON : OUT std_logic_vector(2 DOWNTO 0);
- RGB_COCHE : OUT std_logic_vector(2 DOWNTO 0)
+ RESET_TOP : in std_logic;
+ CLK_TOP : in std_logic;
+ BOTON_TOP : in std_logic;
+ SENSOR_TOP:in std_logic;
+ SEM_TOP : out std_logic_vector(5 downto 0)
  );
-END top;
+end top;
 
 architecture Behavioral of top is
+COMPONENT monoestable IS
+ PORT ( 
+ clk: in std_logic;
+ rst: in std_logic;
+ ent: in std_logic;
+ sal: out std_logic
+ );
+END COMPONENT;
 
-COMPONENT maq_coche IS
+COMPONENT maquina_estados is
  PORT (
  RESET : in std_logic;
  CLK : in std_logic;
  PUSHBUTTON : in std_logic;
  SENSOR:in std_logic;
- SEM_COCH : out std_logic_vector(2 downto 0);
- SEM_ROJO: out std_logic
+ TIEMPO:in std_logic;
+ SEM : out std_logic_vector(5 downto 0);
+ VPEAT : out std_logic
  );
 END COMPONENT;
 
-COMPONENT maq_peaton is
- PORT (
- RESET : in std_logic;
- CLK : in std_logic;
- ROJOCOCHE : in std_logic;
- SEM_PEAT : out std_logic_vector(2 downto 0)
- );
-END COMPONENT;
-
-signal color_peaton: std_logic_vector(2 downto 0);
-signal color_coche: std_logic_vector(2 downto 0);
-signal coche_rojo: STD_LOGIC;
+signal vp_signal: STD_LOGIC;
+signal temp: STD_LOGIC;
 
 begin
 
-semaforo_coches: maq_coche PORT MAP (
+maquina: maquina_estados PORT MAP (
  RESET => RESET_TOP,
  CLK => CLK_TOP,
- PUSHBUTTON => BOTON,
- SENSOR => SNS,
- SEM_COCH => color_coche,
- SEM_ROJO => coche_rojo
- );
-
-semaforo_peaton:maq_peaton PORT MAP ( 
- RESET => RESET_TOP,
- CLK => CLK_TOP,
- ROJOCOCHE => coche_rojo,
- SEM_PEAT =>color_peaton
+ PUSHBUTTON => BOTON_TOP,
+ SENSOR => SENSOR_TOP,
+ TIEMPO => temp,
+ SEM => SEM_TOP,
+ VPEAT => vp_signal
  );
  
- RGB_COCHE <= color_coche;
- RGB_PEATON <= color_peaton;
- 
+ tiempo_verde: monoestable PORT MAP ( 
+ clk => CLK_TOP,
+ rst => RESET_TOP,
+ ent => vp_signal,
+ sal => temp
+ );
 end Behavioral;
-
