@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/madrid/Desktop/semafor_con_rgb_con_parpadeo/semaforo_con_rgb/semaforo_con_boton_v4.srcs/sources_1/new/control_rgb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_rgb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/madrid/Desktop/semafor_con_rgb_con_parpadeo/semaforo_con_rgb/semaforo_con_boton_v4.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'

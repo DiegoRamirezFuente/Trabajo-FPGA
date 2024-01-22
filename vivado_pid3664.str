@@ -1,0 +1,1030 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:05:29 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 3664
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Dec 19 17:20:47 CET 2023
+Time zone: 	Central European Standard Time (Europe/Madrid)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+OS font scaling: 125%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+Java executable: 	C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	diego
+User home directory: C:/Users/diego
+User working directory: C:/Users/diego/LabSED/v_10
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2023.1
+RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2023.1/bin
+
+Vivado preferences file: C:/Users/diego/AppData/Roaming/Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: C:/Users/diego/AppData/Roaming/Xilinx/Vivado/2023.1/
+Vivado layouts directory: C:/Users/diego/AppData/Roaming/Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/diego/LabSED/v_10/vivado.log
+Vivado journal file: 	C:/Users/diego/LabSED/v_10/vivado.jou
+Engine tmp dir: 	C:/Users/diego/LabSED/v_10/.Xil/Vivado-3664-LAPTOP-VRI1VQ46
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2023.1
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent20136 "C:\Users\diego\LabSED\v_10\v_10.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2023.1/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2023.1
+RDI_INSTALLVERSION: 2023.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2023.1/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2023.1/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: C:/Xilinx/Vivado/2023.1/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vivado/2023.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2023.1/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Users\diego\LabSED\v_10:LAPTOP-VRI1VQ46-19-12-2023_17-20-25,41
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2023.1/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2023.1/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2023.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2023.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2023.1
+_RDI_BINROOT: C:\Xilinx\Vivado\2023.1\bin
+_RDI_CWD: C:\Users\diego\LabSED\v_10
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 765 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\diego\LabSED\v_10\v_10.xpr. Version: Vivado v2023.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/diego/LabSED/v_10/v_10.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 809 MB. GUI used memory: 69 MB. Current time: 12/19/23, 5:20:48 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/diego/LabSED/v_10/v_10.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/madrid/Desktop/semafor_con_rgb_con_parpadeo/semaforo_con_rgb/v_10' since last save. INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/diego/LabSED/v_10/v_10.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 139 MB (+142876kb) [00:00:27]
+// [Engine Memory]: 1,048 MB (+947382kb) [00:00:27]
+// WARNING: HEventQueue.dispatchEvent() is taking  3642 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1513.309 ; gain = 421.891 
+// Project name: v_10; location: C:/Users/diego/LabSED/v_10; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bq
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), maquina : maquina_estados(behavioral) (maquina_estados.vhd)]", 2, false, false, false, false, false, true); // E - Double Click
+// [GUI Memory]: 154 MB (+9234kb) [00:01:39]
+// Elapsed time: 77 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), uut : top_rgb(Behavioral) (top_rgb.vhd)]", 9); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), uut : top_rgb(Behavioral) (top_rgb.vhd)]", 9); // E
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+// Elapsed time: 24 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bd
+// Elapsed time: 20 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "top_display"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 28 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/top_display.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/top_display.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // p
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:58s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 04m:00s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_display(Behavioral) (top_display.vhd)]", 10, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_display(Behavioral) (top_display.vhd)]", 10, false, false, false, false, false, true); // E - Double Click
+// Elapsed Time for: 'L.f': 04m:02s
+// Elapsed Time for: 'L.f': 04m:04s
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "top_display.vhd", 'v'); // ad
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bd
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "countdown"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 19 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/countdown.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/countdown.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // p
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 04m:42s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 04m:44s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 04m:46s
+// Elapsed Time for: 'L.f': 04m:48s
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, countdown(Behavioral) (countdown.vhd)]", 10, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, countdown(Behavioral) (countdown.vhd)]", 10, false, false, false, false, false, true); // E - Double Click
+selectCodeEditor("countdown.vhd", 220, 161); // ad
+typeControlKey((HResource) null, "countdown.vhd", 'v'); // ad
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bd
+// Elapsed time: 15 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "decoder"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 32 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/decoder.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/decoder.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // p
+// Elapsed Time for: 'L.f': 05m:30s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:32s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 05m:34s
+// Elapsed Time for: 'L.f': 05m:36s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, decoder(Behavioral) (decoder.vhd)]", 11, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, decoder(Behavioral) (decoder.vhd)]", 11, false, false, false, false, false, true); // E - Double Click
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "decoder.vhd", 'v'); // ad
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bd
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "cambio_digsel"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/cambio_digsel.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/cambio_digsel.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // p
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 06m:16s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 06m:18s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 06m:20s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_display(Behavioral) (top_display.vhd)]", 13, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_display(Behavioral) (top_display.vhd)]", 13, false, false, false, false, false, true); // E - Double Click
+selectCodeEditor("top_display.vhd", 304, 122); // ad
+// Elapsed Time for: 'L.f': 06m:22s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cambio_digsel(Behavioral) (cambio_digsel.vhd)]", 10, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cambio_digsel(Behavioral) (cambio_digsel.vhd)]", 10, false, false, false, false, false, true); // E - Double Click
+selectCodeEditor("cambio_digsel.vhd", 275, 127); // ad
+typeControlKey((HResource) null, "cambio_digsel.vhd", 'v'); // ad
+// Elapsed time: 18 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bd
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "buzzer"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 18 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/buzzer.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/diego/LabSED/v_10/v_10.srcs/sources_1/new/buzzer.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // p
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 07m:10s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 07m:12s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, buzzer(Behavioral) (buzzer.vhd)]", 10, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, buzzer(Behavioral) (buzzer.vhd)]", 10, false, false, false, false, false, true); // E - Double Click
+// Elapsed Time for: 'L.f': 07m:14s
+selectCodeEditor("buzzer.vhd", 217, 178); // ad
+typeControlKey((HResource) null, "buzzer.vhd", 'v'); // ad
+// Elapsed Time for: 'L.f': 07m:16s
+selectCodeEditor("buzzer.vhd", 249, 290); // ad
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_display(Behavioral) (top_display.vhd)]", 14, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_display(Behavioral) (top_display.vhd)]", 14, false, false, false, false, false, true); // E - Double Click
+selectCodeEditor("top_display.vhd", 23, 284); // ad
+typeControlKey((HResource) null, "top_display.vhd", 'c'); // ad
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true, false, false, false, false, true); // E - Double Click - Node
+selectCodeEditor("top.vhd", 212, 320); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+typeControlKey(null, null, 'z');
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_display(Behavioral) (top_display.vhd)]", 6, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_display(Behavioral) (top_display.vhd)]", 6, false, false, false, false, false, true); // E - Double Click
+selectCodeEditor("top_display.vhd", 39, 26); // ad
+selectCodeEditor("top_display.vhd", 92, 31); // ad
+selectCodeEditor("top_display.vhd", 65, 243); // ad
+selectCodeEditor("top_display.vhd", 386, 172); // ad
+selectCodeEditor("top_display.vhd", 266, 83); // ad
+selectCodeEditor("top_display.vhd", 366, 176); // ad
+selectCodeEditor("top_display.vhd", 2, 99); // ad
+typeControlKey((HResource) null, "top_display.vhd", 'c'); // ad
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), maquina : maquina_estados(behavioral) (maquina_estados.vhd)]", 2, false, false, false, false, false, true); // E - Double Click
+selectCodeEditor("top.vhd", 266, 130); // ad
+selectCodeEditor("top.vhd", 160, 181); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 90, 28); // ad
+selectCodeEditor("top.vhd", 55, 215); // ad
+selectCodeEditor("top.vhd", 506, 85); // ad
+selectCodeEditor("top.vhd", 394, 132); // ad
+// [GUI Memory]: 164 MB (+1906kb) [00:09:42]
+// Elapsed time: 20 seconds
+selectCodeEditor("top.vhd", 210, 241); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 92, 31); // ad
+selectCodeEditor("top.vhd", 92, 31, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("top.vhd", 289, 78); // ad
+selectCodeEditor("top.vhd", 207, 73); // ad
+selectCodeEditor("top.vhd", 208, 226); // ad
+selectCodeEditor("top.vhd", 194, 73); // ad
+selectCodeEditor("top.vhd", 104, 70); // ad
+typeControlKey((HResource) null, "top.vhd", 'c'); // ad
+selectCodeEditor("top.vhd", 226, 103); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 404, 109); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 397, 144); // ad
+selectCodeEditor("top.vhd", 388, 134); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 398, 157); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 246, 187); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 74, 174); // ad
+selectCodeEditor("top.vhd", 84, 177); // ad
+selectCodeEditor("top.vhd", 54, 136); // ad
+selectCodeEditor("top.vhd", 90, 97); // ad
+selectCodeEditor("top.vhd", 72, 81); // ad
+selectCodeEditor("top.vhd", 198, 83); // ad
+selectCodeEditor("top.vhd", 59, 159); // ad
+selectCodeEditor("top.vhd", 57, 72); // ad
+selectCodeEditor("top.vhd", 313, 166); // ad
+selectCodeEditor("top.vhd", 170, 106); // ad
+selectCodeEditor("top.vhd", 161, 95); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectCodeEditor("top_display.vhd", 74, 134); // ad
+selectCodeEditor("top_display.vhd", 87, 151); // ad
+selectCodeEditor("top_display.vhd", 87, 181); // ad
+selectCodeEditor("top_display.vhd", 82, 266); // ad
+// Elapsed time: 10 seconds
+selectCodeEditor("top_display.vhd", 200, 182); // ad
+selectCodeEditor("top_display.vhd", 237, 197); // ad
+selectCodeEditor("top_display.vhd", 266, 238); // ad
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top_display.vhd", 487, 201); // ad
+selectCodeEditor("top_display.vhd", 201, 197); // ad
+selectCodeEditor("top_display.vhd", 371, 201); // ad
+selectCodeEditor("top_display.vhd", 348, 313); // ad
+selectCodeEditor("top_display.vhd", 226, 197); // ad
+selectCodeEditor("top_display.vhd", 371, 171); // ad
+selectCodeEditor("top_display.vhd", 405, 172); // ad
+selectCodeEditor("top_display.vhd", 196, 224); // ad
+selectCodeEditor("top_display.vhd", 238, 242); // ad
+selectCodeEditor("top_display.vhd", 393, 61); // ad
+selectCodeEditor("top_display.vhd", 203, 264); // ad
+selectCodeEditor("top_display.vhd", 199, 56); // ad
+selectCodeEditor("top_display.vhd", 154, 239); // ad
+selectCodeEditor("top_display.vhd", 213, 272); // ad
+selectCodeEditor("top_display.vhd", 288, 195); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 69, 156); // ad
+// Elapsed time: 17 seconds
+selectCodeEditor("top.vhd", 231, 266); // ad
+selectCodeEditor("top.vhd", 221, 119); // ad
+selectCodeEditor("top.vhd", 321, 139); // ad
+selectCodeEditor("top.vhd", 294, 237); // ad
+selectCodeEditor("top.vhd", 563, 82); // ad
+// Elapsed time: 11 seconds
+selectCodeEditor("top.vhd", 141, 106); // ad
+selectCodeEditor("top.vhd", 141, 95); // ad
+selectCodeEditor("top.vhd", 154, 90); // ad
+selectCodeEditor("top.vhd", 246, 175); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectButton(RDIResource.HCodeView_FIND_TEXT_IN_FILE, (String) null); // v: TRUE
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE", true); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 97, 159); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CODE"); // d.c
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // d.c
+selectCodeEditor("top_display.vhd", 420, 60); // ad
+selectCodeEditor("top_display.vhd", 5, 178); // ad
+selectCodeEditor("top_display.vhd", 246, 127); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 94, 151); // ad
+selectCodeEditor("top.vhd", 100, 139); // ad
+selectCodeEditor("top.vhd", 126, 135); // ad
+selectCodeEditor("top.vhd", 300, 203); // ad
+// Elapsed time: 19 seconds
+selectCodeEditor("top.vhd", 8, 114); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 109, 158); // ad
+selectCodeEditor("top.vhd", 155, 172); // ad
+selectCodeEditor("top.vhd", 103, 150); // ad
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 136, 163); // ad
+// Elapsed time: 21 seconds
+selectCodeEditor("top.vhd", 120, 226); // ad
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectCodeEditor("top_display.vhd", 391, 160); // ad
+typeControlKey((HResource) null, "top_display.vhd", 'c'); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 190, 231); // ad
+selectCodeEditor("top.vhd", 194, 215); // ad
+selectCodeEditor("top.vhd", 184, 216); // ad
+selectCodeEditor("top.vhd", 176, 217); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 458, 188); // ad
+selectCodeEditor("top.vhd", 211, 163); // ad
+selectCodeEditor("top.vhd", 316, 98); // ad
+selectCodeEditor("top.vhd", 183, 185); // ad
+selectCodeEditor("top.vhd", 94, 207); // ad
+selectCodeEditor("top.vhd", 177, 191); // ad
+selectCodeEditor("top.vhd", 151, 182); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectCodeEditor("top_display.vhd", 575, 95); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 111, 177); // ad
+selectCodeEditor("top.vhd", 210, 226); // ad
+selectCodeEditor("top.vhd", 121, 246); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 104, 157); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+// Elapsed time: 10 seconds
+selectCodeEditor("top.vhd", 81, 263); // ad
+selectCodeEditor("top.vhd", 71, 183); // ad
+// Elapsed time: 13 seconds
+selectCodeEditor("top.vhd", 46, 199); // ad
+selectCodeEditor("top.vhd", 577, 114); // ad
+selectCodeEditor("top.vhd", 118, 227); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+// Elapsed time: 20 seconds
+selectCodeEditor("top.vhd", 139, 213); // ad
+selectCodeEditor("top.vhd", 127, 194); // ad
+// Elapsed time: 14 seconds
+selectCodeEditor("top.vhd", 117, 238); // ad
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectCodeEditor("top_display.vhd", 392, 272); // ad
+typeControlKey((HResource) null, "top_display.vhd", 'c'); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 429, 205); // ad
+selectCodeEditor("top.vhd", 473, 179); // ad
+selectCodeEditor("top.vhd", 462, 196); // ad
+typeControlKey((HResource) null, "top.vhd", 'v'); // ad
+selectCodeEditor("top.vhd", 449, 197); // ad
+selectCodeEditor("top.vhd", 78, 218); // ad
+selectCodeEditor("top.vhd", 498, 148); // ad
+selectCodeEditor("top.vhd", 469, 211); // ad
+selectCodeEditor("top.vhd", 704, 47); // ad
+selectCodeEditor("top.vhd", 164, 181); // ad
+// Elapsed time: 10 seconds
+selectCodeEditor("top.vhd", 488, 206); // ad
+selectCodeEditor("top.vhd", 485, 206); // ad
+// Elapsed time: 16 seconds
+selectCodeEditor("top.vhd", 151, 207); // ad
+selectCodeEditor("top.vhd", 476, 204); // ad
+selectCodeEditor("top.vhd", 200, 297); // ad
+selectCodeEditor("top.vhd", 267, 288); // ad
+selectCodeEditor("top.vhd", 720, 227); // ad
+selectCodeEditor("top.vhd", 541, 180); // ad
+selectCodeEditor("top.vhd", 206, 206); // ad
+selectCodeEditor("top.vhd", 258, 304); // ad
+selectCodeEditor("top.vhd", 660, 183); // ad
+selectCodeEditor("top.vhd", 716, 180); // ad
+selectCodeEditor("top.vhd", 222, 192); // ad
+selectCodeEditor("top.vhd", 223, 176); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectCodeEditor("top_display.vhd", 406, 260); // ad
+// Elapsed time: 19 seconds
+selectCodeEditor("top_display.vhd", 551, 214); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+// Elapsed time: 20 seconds
+selectCodeEditor("top.vhd", 222, 203); // ad
+selectCodeEditor("top.vhd", 426, 175); // ad
+// Elapsed time: 14 seconds
+selectCodeEditor("top.vhd", 622, 174); // ad
+selectCodeEditor("top.vhd", 231, 196); // ad
+selectCodeEditor("top.vhd", 246, 213); // ad
+selectCodeEditor("top.vhd", 563, 114); // ad
+selectCodeEditor("top.vhd", 461, 209); // ad
+// Elapsed time: 18 seconds
+selectCodeEditor("top.vhd", 151, 216); // ad
+// Elapsed time: 28 seconds
+selectCodeEditor("top.vhd", 390, 205); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+// Elapsed time: 17 seconds
+selectCodeEditor("top_display.vhd", 192, 185); // ad
+selectCodeEditor("top_display.vhd", 440, 248); // ad
+selectCodeEditor("top_display.vhd", 253, 110); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 307, 219); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectCodeEditor("top_display.vhd", 145, 261); // ad
+selectCodeEditor("top_display.vhd", 595, 164); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 241, 179); // ad
+selectCodeEditor("top.vhd", 225, 206); // ad
+selectCodeEditor("top.vhd", 160, 183); // ad
+selectCodeEditor("top.vhd", 162, 239); // ad
+// Elapsed time: 18 seconds
+selectCodeEditor("top.vhd", 61, 242); // ad
+selectCodeEditor("top.vhd", 673, 201); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // W.d
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/diego/LabSED/v_10/v_10.srcs/utils_1/imports/synth_1/top.dcp with file C:/Users/diego/LabSED/v_10/v_10.runs/synth_1/top.dcp 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 24m:31s
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // cw
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Dec 19 17:45:35 2023] Launched synth_1... Run output will be captured here: C:/Users/diego/LabSED/v_10/v_10.runs/synth_1/runme.log [Tue Dec 19 17:45:35 2023] Launched impl_1... Run output will be captured here: C:/Users/diego/LabSED/v_10/v_10.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bq
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'L.f': 24m:35s
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 45 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g
+selectButton("OptionPane.button", "Cancel Process"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bq
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "countdown.vhd", 3); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectCodeEditor("top.vhd", 223, 180); // ad
+// Elapsed time: 21 seconds
+selectCodeEditor("top.vhd", 223, 171); // ad
+// Elapsed time: 26 seconds
+selectCodeEditor("top.vhd", 284, 144); // ad
+selectCodeEditor("top.vhd", 185, 171); // ad
+selectCodeEditor("top.vhd", 470, 126); // ad
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectCodeEditor("top.vhd", 225, 222); // ad
+// Elapsed time: 42 seconds
+selectCodeEditor("top.vhd", 238, 236); // ad
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 11, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 11, true, false, false, false, false, true); // E - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 13, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 13, false, false, false, false, false, true); // E - Double Click
+// Elapsed time: 39 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 716, 220); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 8, 222); // ad
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true, false, false, false, false, true); // E - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 4, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 4, false, false, false, false, false, true); // E - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 7); // o
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), maquina : maquina_estados(behavioral) (maquina_estados.vhd)]", 2, false, false, false, false, false, true); // E - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 13, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 13, false, false, false, false, false, true); // E - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 2); // o
+// HMemoryUtils.trashcanNow. Engine heap size: 1,095 MB. GUI used memory: 82 MB. Current time: 12/19/23, 5:50:49 PM CET
+// Elapsed time: 50 seconds
+selectButton(RDIResource.HCodeView_FIND_TEXT_IN_FILE, (String) null); // v: TRUE
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "digct"); // d.c
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 10, 117); // ad
+// Elapsed time: 24 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment", true); // d.c
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 3); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 2); // o
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 7, 83); // ad
+// Elapsed time: 23 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 1, 91); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // ad
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 2); // o
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 660, 28); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 672, 28); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 750, 33); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'c'); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 712, 52); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 708, 77); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 709, 98); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 713, 122); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 710, 140); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 708, 154); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 710, 178); // ad
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 806, 220); // ad
+// Elapsed time: 12 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 8, 153); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 754, 152); // ad
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+dismissDialog("Save Project"); // W.d
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 32m:47s
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cw
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Dec 19 17:53:49 2023] Launched synth_1... Run output will be captured here: C:/Users/diego/LabSED/v_10/v_10.runs/synth_1/runme.log [Tue Dec 19 17:53:50 2023] Launched impl_1... Run output will be captured here: C:/Users/diego/LabSED/v_10/v_10.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bq
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'L.f': 32m:51s
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 239 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // Q.a
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 11, false); // u.d
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;segment_top;-;;-;10;-;"); // u.d
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 2); // o
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 735, 131); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 729, 148); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 727, 137); // ad
+// Elapsed time: 15 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 732, 228); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 732, 240); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 726, 255); // ad
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 734, 81); // ad
+// Elapsed time: 35 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 11, false); // u.d
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;RESET_TOP;-;;-;10;-;"); // u.d
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 3); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 2); // o
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 748, 227); // ad
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+dismissDialog("Save Project"); // W.d
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cw
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue Dec 19 17:59:52 2023] Launched impl_1... Run output will be captured here: C:/Users/diego/LabSED/v_10/v_10.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bq
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 97 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // Q.a
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 8 out of 25 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: segment_top[6:0], and RESET_TOP.. ]", 12, false); // u.d
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;segment_top;-;;-;10;-;"); // u.d
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Implementation is Out-of-date"); // bF
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 2); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // R
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // o
+// Elapsed time: 51 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 2); // o
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 1048, 212); // ad
+// Elapsed time: 25 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "reset_top", true); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "reset_top"); // d.c
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "reset", true); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "reset"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "reset"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "reset"); // d.c
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment", true); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment"); // d.c
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "segment"); // d.c
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/diego/LabSED/v_10/v_10.srcs/utils_1/imports/synth_1/top.dcp with file C:/Users/diego/LabSED/v_10/v_10.runs/synth_1/top.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cw
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue Dec 19 18:04:29 2023] Launched synth_1... Run output will be captured here: C:/Users/diego/LabSED/v_10/v_10.runs/synth_1/runme.log [Tue Dec 19 18:04:29 2023] Launched impl_1... Run output will be captured here: C:/Users/diego/LabSED/v_10/v_10.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 84 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 1080, 135); // ad
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 70 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,265 MB. GUI used memory: 87 MB. Current time: 12/19/23, 6:07:14 PM CET
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,704 MB. GUI used memory: 87 MB. Current time: 12/19/23, 6:07:18 PM CET
+// [Engine Memory]: 1,704 MB (+632573kb) [00:46:45]
+// [Engine Memory]: 1,819 MB (+31682kb) [00:46:46]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1727 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1952.426 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 199 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2023.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.154 . Memory (MB): peak = 2635.047 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.154 . Memory (MB): peak = 2635.047 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2635.047 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2770.660 ; gain = 1197.336 
+// TclEventType: DRC_ADDED
+// Device view-level: 0,0
+// [GUI Memory]: 172 MB (+142kb) [00:46:48]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// [GUI Memory]: 187 MB (+6670kb) [00:46:48]
+// TclEventType: POWER_UPDATED
+// WARNING: HEventQueue.dispatchEvent() is taking  1237 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dA' command handler elapsed time: 20 seconds
+// Device view-level: 0,1
+// Device view-level: 0,0
+// Elapsed time: 20 seconds
+dismissDialog("Open Implemented Design"); // bq
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Methodology Violations"); // aO
+// [GUI Memory]: 203 MB (+6811kb) [00:46:57]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 33, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+// Tcl Message: open_hw_manager 
+// [Engine Memory]: 1,912 MB (+1611kb) [00:47:00]
+dismissDialog("Open Hardware Manager"); // bq
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output: ECHO est  desactivado. ECHO est  desactivado.  ****** Xilinx hw_server v2023.1   **** Build date : May  7 2023 at 15:26:57     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output: ECHO est  desactivado. ECHO est  desactivado.   ******** Xilinx cs_server v2023.1.0   ****** Build date   : Apr 10 2023-17:59:24     **** Build number : 2023.1.1681142364       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2780.270 ; gain = 4.906 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AE3C91A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/diego/LabSED/v_10/v_10.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bq
+// HMemoryUtils.trashcanNow. Engine heap size: 1,959 MB. GUI used memory: 131 MB. Current time: 12/19/23, 6:07:44 PM CET
+// Elapsed time: 15 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // aP
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/diego/LabSED/v_10/v_10.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'D' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bq
+// Elapsed time: 195 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 1); // o
+// Elapsed time: 112 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // u
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw_manager 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,963 MB. GUI used memory: 133 MB. Current time: 12/19/23, 6:13:12 PM CET
+dismissDialog("Close Hardware Manager"); // bq
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // o
+// Elapsed time: 51 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_display.vhd", 3); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "countdown.vhd", 4); // o
+selectCodeEditor("countdown.vhd", 78, 268); // ad
+selectCodeEditor("countdown.vhd", 163, 310); // ad
+// Elapsed time: 15 seconds
+selectCodeEditor("countdown.vhd", 192, 133); // ad
+selectCodeEditor("countdown.vhd", 177, 130); // ad
+selectCodeEditor("countdown.vhd", 269, 198); // ad

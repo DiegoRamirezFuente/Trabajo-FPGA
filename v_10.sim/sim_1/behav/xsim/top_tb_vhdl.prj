@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../semaforo_con_boton_v4.srcs/sources_1/new/anclar_entrada.vhd" \
+"../../../../semaforo_con_boton_v4.srcs/sources_1/new/cambio_intensidad.vhd" \
+"../../../../semaforo_con_boton_v4.srcs/sources_1/new/control_rgb.vhd" \
+"../../../../semaforo_con_boton_v4.srcs/sources_1/new/decoder_rgb.vhd" \
+"../../../../semaforo_con_boton_v4.srcs/sources_1/new/maquina_estados.vhd" \
+"../../../../semaforo_con_boton_v4.srcs/sources_1/new/monoestable.vhd" \
+"../../../../semaforo_con_boton_v4.srcs/sources_1/new/top.vhd" \
+"../../../../semaforo_con_boton_v4.srcs/sources_1/new/top_rgb.vhd" \
+"../../../../semaforo_con_boton_v4.srcs/sim_1/new/top_tb.vhd" \
+
+# Do not sort compile order
+nosort
